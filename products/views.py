@@ -4,4 +4,4 @@ from rest_framework.response import Response
 
 class Stub(APIView):
     def get(self, request):
-        return Response("Hello World")
+        return Response("Hello World 2")
